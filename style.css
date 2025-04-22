@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("yellow.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #fcd34d;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin: 20px 0 10px;
+  color: #ffb703;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.socials a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 16px;
+  border-radius: 30px;
+  background-color: #ffe066;
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.socials a:hover {
+  background-color: #ffca3a;
+  transform: scale(1.1);
+}
+
+.email {
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #555;
+}
+
+.email a {
+  color: #1d3557;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
